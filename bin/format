@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+mix format --check-formatted

@@ -14,7 +14,7 @@ defmodule PhoenixTest.Application do
       # Start the Ecto repository
       supervisor(PhoenixTest.Repo, []),
       # Start the endpoint when the application starts
-      supervisor(PhoenixTestWeb.Endpoint, []),
+      supervisor(PhoenixTestWeb.Endpoint, [])
       # Start your own worker by calling: PhoenixTest.Worker.start_link(arg1, arg2, arg3)
       # worker(PhoenixTest.Worker, [arg1, arg2, arg3]),
     ]
