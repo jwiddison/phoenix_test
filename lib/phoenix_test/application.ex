@@ -1,4 +1,7 @@
 defmodule PhoenixTest.Application do
+  @moduledoc """
+  The base module for the PhoenixTest app
+  """
   use Application
 
   # See https://hexdocs.pm/elixir/Application.html
