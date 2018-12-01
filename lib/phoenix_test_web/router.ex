@@ -18,6 +18,7 @@ defmodule PhoenixTestWeb.Router do
     pipe_through(:browser)
 
     get("/", PageController, :index)
+    get("/marketing", PageController, :marketing)
   end
 
   # Other scopes may use custom stacks.
